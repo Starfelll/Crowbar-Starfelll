@@ -374,7 +374,7 @@ Partial Class MainForm
 		Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
 		Me.MinimumSize = New System.Drawing.Size(800, 600)
 		Me.Name = "MainForm"
-		Me.Text = "Crowbar"
+		Me.Text = "Crowbar-Starfelll"
 		Me.MainTabControl.ResumeLayout(False)
 		Me.SetUpGamesTabPage.ResumeLayout(False)
 		Me.DownloadTabPage.ResumeLayout(False)

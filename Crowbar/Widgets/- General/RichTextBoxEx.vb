@@ -23,6 +23,10 @@ Public Class RichTextBoxEx
 		Me.ContextMenuStrip = Me.CustomMenu
 
 		Me.theCueBannerText = ""
+		Me.BackColor = Color.FromArgb(64, 64, 64)
+		Me.Font = New Drawing.Font("Cascadia Mono", 10, FontStyle.Bold)
+		Me.ForeColor = Color.FromArgb(200, 200, 200)
+
 	End Sub
 
 #End Region
