@@ -10,11 +10,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Crowbar")> 
-<Assembly: AssemblyDescription("Source Engine Modding Tool")> 
-<Assembly: AssemblyCompany("ZeqMacaw")> 
-<Assembly: AssemblyProduct("Crowbar")>
-<Assembly: AssemblyCopyright("Copyright 2023")>
+<Assembly: AssemblyTitle("Crowbar-Starfelll")>
+<Assembly: AssemblyDescription("Source Engine Modding Tool")>
+<Assembly: AssemblyCompany("ZeqMacaw,Starfelll")>
+<Assembly: AssemblyProduct("Crowbar-Starfelll")>
+<Assembly: AssemblyCopyright("Copyright 2024")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("0.74.0.0")>
-<Assembly: AssemblyFileVersion("0.74.0.0")>
+<Assembly: AssemblyVersion("1.0.0.0")>
+<Assembly: AssemblyFileVersion("1.0.0.0")>
 
 <Assembly: NeutralResourcesLanguageAttribute("en-US")> 

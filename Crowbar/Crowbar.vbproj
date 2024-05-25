@@ -9,7 +9,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Sub Main</StartupObject>
     <RootNamespace>Crowbar</RootNamespace>
-    <AssemblyName>Crowbar</AssemblyName>
+    <AssemblyName>Crowbar-Starfelll</AssemblyName>
     <MyType>WindowsFormsWithCustomSubMain</MyType>
     <OptionStrict>On</OptionStrict>
     <ApplicationIcon>Resources\crowbar_icon.ico</ApplicationIcon>
