@@ -198,7 +198,7 @@ Public Class SetUpGamesUserControl
 			openFileWdw.Filter = "GoldSource Engine Model Compiler Tool File|studiomdl.exe|Executable Files (*.exe)|*.exe|All Files (*.*)|*.*"
 		ElseIf Me.theSelectedGameSetup.GameEngine = GameEngine.Source Then
 			openFileWdw.Title = "Select Source Engine Model Compiler Tool"
-			openFileWdw.Filter = "Source Engine Model Compiler Tool File|studiomdl.exe|Executable Files (*.exe)|*.exe|All Files (*.*)|*.*"
+			openFileWdw.Filter = "Executable Files (*.exe)|*.exe|Source Engine Model Compiler Tool File|studiomdl.exe|All Files (*.*)|*.*"
 		ElseIf Me.theSelectedGameSetup.GameEngine = GameEngine.Source2 Then
 			openFileWdw.Title = "Select Source 2 Engine Model Compiler Tool"
 			openFileWdw.Filter = "Source 2 Engine Model Compiler Tool File|studiomdl.exe|Executable Files (*.exe)|*.exe|All Files (*.*)|*.*"
