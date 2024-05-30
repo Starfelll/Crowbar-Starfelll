@@ -1,5 +1,6 @@
 Imports System.ComponentModel
 Imports System.IO
+Imports System.Text
 Imports Microsoft.VisualBasic.FileIO
 
 Public Class Compiler
@@ -585,6 +586,7 @@ Public Class Compiler
 		myProcessStartInfo.RedirectStandardError = True
 		myProcessStartInfo.RedirectStandardInput = True
 		myProcessStartInfo.CreateNoWindow = True
+		myProcessStartInfo.StandardOutputEncoding = Encoding.UTF8
 		myProcess.StartInfo = myProcessStartInfo
 		''NOTE: Need this line to make Me.myProcess_Exited be called.
 		'myProcess.EnableRaisingEvents = True

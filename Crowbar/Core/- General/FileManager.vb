@@ -1,4 +1,4 @@
-Imports System.IO
+﻿Imports System.IO
 Imports System.Linq
 Imports System.Runtime.InteropServices
 Imports System.Text
@@ -9,14 +9,17 @@ Public Class FileManager
 #Region "Read Methods"
 
 	Public Shared Function ReadNullTerminatedString(ByVal inputFileReader As BinaryReader) As String
-		Dim text As New StringBuilder()
-		text.Length = 0
-		While inputFileReader.PeekChar() > 0
-			text.Append(inputFileReader.ReadChar())
+		Dim bytes As New List(Of Byte)
+
+		While True
+			Dim b As Byte = inputFileReader.ReadByte()
+			If b = 0 Then
+				Exit While
+			End If
+			bytes.Add(b)
 		End While
-		' Read the null character.
-		inputFileReader.ReadChar()
-		Return text.ToString()
+
+		Return Encoding.UTF8.GetString(bytes.ToArray())
 	End Function
 
 	Public Shared Function ReadNullTerminatedString(ByVal inputFileReader As BufferedBinaryReader) As String

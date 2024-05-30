@@ -763,7 +763,7 @@ Public MustInherit Class SourceModel
 			inputFileStream = New FileStream(pathFileName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)
 			If inputFileStream IsNot Nothing Then
 				Try
-					Me.theInputFileReader = New BinaryReader(inputFileStream, System.Text.Encoding.ASCII)
+					Me.theInputFileReader = New BinaryReader(inputFileStream, System.Text.Encoding.UTF8)
 
 					readFileAction.Invoke()
 				Catch ex As Exception
