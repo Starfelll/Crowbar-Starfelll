@@ -2307,6 +2307,7 @@ Public Class SourceQcFile49
 				Me.theOutputFileStreamWriter.WriteLine(line)
 				line = "}"
 				Me.theOutputFileStreamWriter.WriteLine(line)
+				Return
 			Next
 		End If
 	End Sub

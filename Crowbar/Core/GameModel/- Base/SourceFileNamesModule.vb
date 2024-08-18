@@ -226,7 +226,7 @@ Module SourceFileNamesModule
 	Public Function CreateCorrectiveAnimationName(ByVal givenAnimationSmdRelativePathFileName As String) As String
 		Dim animationName As String
 
-		animationName = givenAnimationSmdRelativePathFileName + "_" + "corrective_animation"
+		animationName = "_corrective_animation"
 
 		Return animationName
 	End Function

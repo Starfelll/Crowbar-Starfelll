@@ -257,6 +257,7 @@ Public Class SourceModel49
 							Me.NotifySourceModelProgress(ProgressOptions.WritingFileFailed, writeStatus)
 						End If
 					End If
+					Exit For
 				Next
 			End If
 
